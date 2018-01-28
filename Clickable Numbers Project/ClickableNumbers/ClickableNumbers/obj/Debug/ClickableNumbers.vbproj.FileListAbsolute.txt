@@ -1,0 +1,11 @@
+C:\JSass - Class Files\IT2620 _ JSASS\Clickable Numbers Project\ClickableNumbers\ClickableNumbers\bin\Debug\ClickableNumbers.exe.config
+C:\JSass - Class Files\IT2620 _ JSASS\Clickable Numbers Project\ClickableNumbers\ClickableNumbers\bin\Debug\ClickableNumbers.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Clickable Numbers Project\ClickableNumbers\ClickableNumbers\bin\Debug\ClickableNumbers.pdb
+C:\JSass - Class Files\IT2620 _ JSASS\Clickable Numbers Project\ClickableNumbers\ClickableNumbers\bin\Debug\ClickableNumbers.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Clickable Numbers Project\ClickableNumbers\ClickableNumbers\obj\Debug\ClickableNumbers.vbprojResolveAssemblyReference.cache
+C:\JSass - Class Files\IT2620 _ JSASS\Clickable Numbers Project\ClickableNumbers\ClickableNumbers\obj\Debug\ClickableNumbers.Form1.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Clickable Numbers Project\ClickableNumbers\ClickableNumbers\obj\Debug\ClickableNumbers.Resources.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Clickable Numbers Project\ClickableNumbers\ClickableNumbers\obj\Debug\ClickableNumbers.vbproj.GenerateResource.Cache
+C:\JSass - Class Files\IT2620 _ JSASS\Clickable Numbers Project\ClickableNumbers\ClickableNumbers\obj\Debug\ClickableNumbers.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Clickable Numbers Project\ClickableNumbers\ClickableNumbers\obj\Debug\ClickableNumbers.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Clickable Numbers Project\ClickableNumbers\ClickableNumbers\obj\Debug\ClickableNumbers.pdb
