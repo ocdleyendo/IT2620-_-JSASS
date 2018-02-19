@@ -1,0 +1,11 @@
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-Roman Numerals Converter\Lab05-Roman Numerals Converter\bin\Debug\Lab05-Roman Numerals Converter.exe.config
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-Roman Numerals Converter\Lab05-Roman Numerals Converter\bin\Debug\Lab05-Roman Numerals Converter.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-Roman Numerals Converter\Lab05-Roman Numerals Converter\bin\Debug\Lab05-Roman Numerals Converter.pdb
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-Roman Numerals Converter\Lab05-Roman Numerals Converter\bin\Debug\Lab05-Roman Numerals Converter.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-Roman Numerals Converter\Lab05-Roman Numerals Converter\obj\Debug\Lab05-Roman Numerals Converter.vbprojResolveAssemblyReference.cache
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-Roman Numerals Converter\Lab05-Roman Numerals Converter\obj\Debug\Lab05_Roman_Numerals_Converter.RomanNumeralConverter.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-Roman Numerals Converter\Lab05-Roman Numerals Converter\obj\Debug\Lab05_Roman_Numerals_Converter.Resources.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-Roman Numerals Converter\Lab05-Roman Numerals Converter\obj\Debug\Lab05-Roman Numerals Converter.vbproj.GenerateResource.Cache
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-Roman Numerals Converter\Lab05-Roman Numerals Converter\obj\Debug\Lab05-Roman Numerals Converter.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-Roman Numerals Converter\Lab05-Roman Numerals Converter\obj\Debug\Lab05-Roman Numerals Converter.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-Roman Numerals Converter\Lab05-Roman Numerals Converter\obj\Debug\Lab05-Roman Numerals Converter.pdb

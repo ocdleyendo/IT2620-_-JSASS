@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{369411D3-3EC4-40E6-A91C-B925B840D139}</ProjectGuid>
+    <ProjectGuid>{A2343117-6F5D-4458-B28B-19631A3244D7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>ClickableNumbers.My.MyApplication</StartupObject>
-    <RootNamespace>ClickableNumbers</RootNamespace>
-    <AssemblyName>ClickableNumbers</AssemblyName>
+    <StartupObject>Lab4RoomCharger.My.MyApplication</StartupObject>
+    <RootNamespace>Lab4RoomCharger</RootNamespace>
+    <AssemblyName>Lab4RoomCharger</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>ClickableNumbers.xml</DocumentationFile>
+    <DocumentationFile>Lab4RoomCharger.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>ClickableNumbers.xml</DocumentationFile>
+    <DocumentationFile>Lab4RoomCharger.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -72,10 +72,11 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClickableNumbersForm.Designer.vb">
-      <DependentUpon>ClickableNumbersForm.vb</DependentUpon>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ClickableNumbersForm.vb">
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -95,8 +96,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="ClickableNumbersForm.resx">
-      <DependentUpon>ClickableNumbersForm.vb</DependentUpon>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>

@@ -1,0 +1,11 @@
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-LargerSmallerJSass\Lab05-LargerSmallerJSass\bin\Debug\Lab05-LargerSmallerJSass.exe.config
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-LargerSmallerJSass\Lab05-LargerSmallerJSass\bin\Debug\Lab05-LargerSmallerJSass.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-LargerSmallerJSass\Lab05-LargerSmallerJSass\bin\Debug\Lab05-LargerSmallerJSass.pdb
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-LargerSmallerJSass\Lab05-LargerSmallerJSass\bin\Debug\Lab05-LargerSmallerJSass.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-LargerSmallerJSass\Lab05-LargerSmallerJSass\obj\Debug\Lab05-LargerSmallerJSass.vbprojResolveAssemblyReference.cache
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-LargerSmallerJSass\Lab05-LargerSmallerJSass\obj\Debug\Lab05_LargerSmallerJSass.Form1.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-LargerSmallerJSass\Lab05-LargerSmallerJSass\obj\Debug\Lab05_LargerSmallerJSass.Resources.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-LargerSmallerJSass\Lab05-LargerSmallerJSass\obj\Debug\Lab05-LargerSmallerJSass.vbproj.GenerateResource.Cache
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-LargerSmallerJSass\Lab05-LargerSmallerJSass\obj\Debug\Lab05-LargerSmallerJSass.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-LargerSmallerJSass\Lab05-LargerSmallerJSass\obj\Debug\Lab05-LargerSmallerJSass.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Lab05-LargerSmallerJSass\Lab05-LargerSmallerJSass\obj\Debug\Lab05-LargerSmallerJSass.pdb

@@ -1,0 +1,11 @@
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\State Abbreviations -Project  Ch.2\State Abbreviations -Project  Ch.2\bin\Debug\State Abbreviations -Project  Ch.2.exe.config
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\State Abbreviations -Project  Ch.2\State Abbreviations -Project  Ch.2\bin\Debug\State Abbreviations -Project  Ch.2.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\State Abbreviations -Project  Ch.2\State Abbreviations -Project  Ch.2\bin\Debug\State Abbreviations -Project  Ch.2.pdb
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\State Abbreviations -Project  Ch.2\State Abbreviations -Project  Ch.2\bin\Debug\State Abbreviations -Project  Ch.2.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\State Abbreviations -Project  Ch.2\State Abbreviations -Project  Ch.2\obj\Debug\State Abbreviations -Project  Ch.2.vbprojResolveAssemblyReference.cache
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\State Abbreviations -Project  Ch.2\State Abbreviations -Project  Ch.2\obj\Debug\State_Abbreviations__Project__Ch._2.Form1.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\State Abbreviations -Project  Ch.2\State Abbreviations -Project  Ch.2\obj\Debug\State_Abbreviations__Project__Ch._2.Resources.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\State Abbreviations -Project  Ch.2\State Abbreviations -Project  Ch.2\obj\Debug\State Abbreviations -Project  Ch.2.vbproj.GenerateResource.Cache
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\State Abbreviations -Project  Ch.2\State Abbreviations -Project  Ch.2\obj\Debug\State Abbreviations -Project  Ch.2.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\State Abbreviations -Project  Ch.2\State Abbreviations -Project  Ch.2\obj\Debug\State Abbreviations -Project  Ch.2.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\State Abbreviations -Project  Ch.2\State Abbreviations -Project  Ch.2\obj\Debug\State Abbreviations -Project  Ch.2.pdb

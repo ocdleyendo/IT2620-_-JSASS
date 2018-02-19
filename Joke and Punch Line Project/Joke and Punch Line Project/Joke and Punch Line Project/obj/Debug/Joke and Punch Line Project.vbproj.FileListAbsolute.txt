@@ -1,0 +1,10 @@
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\Joke and Punch Line Project\Joke and Punch Line Project\bin\Debug\Joke and Punch Line Project.exe.config
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\Joke and Punch Line Project\Joke and Punch Line Project\bin\Debug\Joke and Punch Line Project.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\Joke and Punch Line Project\Joke and Punch Line Project\bin\Debug\Joke and Punch Line Project.pdb
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\Joke and Punch Line Project\Joke and Punch Line Project\bin\Debug\Joke and Punch Line Project.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\Joke and Punch Line Project\Joke and Punch Line Project\obj\Debug\Joke_and_Punch_Line_Project.Form1.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\Joke and Punch Line Project\Joke and Punch Line Project\obj\Debug\Joke_and_Punch_Line_Project.Resources.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\Joke and Punch Line Project\Joke and Punch Line Project\obj\Debug\Joke and Punch Line Project.vbproj.GenerateResource.Cache
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\Joke and Punch Line Project\Joke and Punch Line Project\obj\Debug\Joke and Punch Line Project.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\Joke and Punch Line Project\Joke and Punch Line Project\obj\Debug\Joke and Punch Line Project.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Joke and Punch Line Project\Joke and Punch Line Project\Joke and Punch Line Project\obj\Debug\Joke and Punch Line Project.pdb
