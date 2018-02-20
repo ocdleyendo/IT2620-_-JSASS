@@ -33,7 +33,7 @@ Partial Class RomanNumeralConverter
         '
         'btnConvert
         '
-        Me.btnConvert.Location = New System.Drawing.Point(115, 124)
+        Me.btnConvert.Location = New System.Drawing.Point(86, 124)
         Me.btnConvert.Name = "btnConvert"
         Me.btnConvert.Size = New System.Drawing.Size(75, 23)
         Me.btnConvert.TabIndex = 0
@@ -42,7 +42,7 @@ Partial Class RomanNumeralConverter
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(226, 124)
+        Me.btnExit.Location = New System.Drawing.Point(223, 124)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 1
@@ -85,7 +85,7 @@ Partial Class RomanNumeralConverter
         'lblMessage
         '
         Me.lblMessage.AutoSize = True
-        Me.lblMessage.Location = New System.Drawing.Point(175, 96)
+        Me.lblMessage.Location = New System.Drawing.Point(73, 161)
         Me.lblMessage.Name = "lblMessage"
         Me.lblMessage.Size = New System.Drawing.Size(0, 13)
         Me.lblMessage.TabIndex = 6
