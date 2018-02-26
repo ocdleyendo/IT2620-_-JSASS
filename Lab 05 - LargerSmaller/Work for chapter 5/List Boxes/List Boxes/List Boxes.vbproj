@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{91518DE0-B4C1-40C2-B78B-5B52408CFD86}</ProjectGuid>
+    <ProjectGuid>{E0350951-A93A-4ADC-8717-91770B10591D}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>Lab05_Roman_Numerals_Converter.My.MyApplication</StartupObject>
-    <RootNamespace>Lab05_Roman_Numerals_Converter</RootNamespace>
-    <AssemblyName>Lab05-Roman Numerals Converter</AssemblyName>
+    <StartupObject>List_Boxes.My.MyApplication</StartupObject>
+    <RootNamespace>List_Boxes</RootNamespace>
+    <AssemblyName>List Boxes</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
@@ -21,7 +21,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>Lab05-Roman Numerals Converter.xml</DocumentationFile>
+    <DocumentationFile>List Boxes.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
@@ -31,7 +31,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>Lab05-Roman Numerals Converter.xml</DocumentationFile>
+    <DocumentationFile>List Boxes.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
   </PropertyGroup>
   <PropertyGroup>
@@ -72,14 +72,12 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="..\..\..\Lab 05 Roman Numerals Converter\Form1.vb">
+    <Compile Include="Form1.vb">
       <SubType>Form</SubType>
-      <Link>Form1.vb</Link>
     </Compile>
-    <Compile Include="..\..\..\Lab 05 Roman Numerals Converter\Form1.Designer.vb">
+    <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
       <SubType>Form</SubType>
-      <Link>Form1.Designer.vb</Link>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -98,9 +96,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="..\..\..\Lab 05 Roman Numerals Converter\Form1.resx">
+    <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
-      <Link>Form1.resx</Link>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
