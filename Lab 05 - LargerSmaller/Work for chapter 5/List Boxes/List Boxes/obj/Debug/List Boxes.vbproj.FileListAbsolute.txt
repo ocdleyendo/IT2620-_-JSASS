@@ -1,0 +1,11 @@
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\List Boxes\List Boxes\bin\Debug\List Boxes.exe.config
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\List Boxes\List Boxes\bin\Debug\List Boxes.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\List Boxes\List Boxes\bin\Debug\List Boxes.pdb
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\List Boxes\List Boxes\bin\Debug\List Boxes.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\List Boxes\List Boxes\obj\Debug\List Boxes.vbprojResolveAssemblyReference.cache
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\List Boxes\List Boxes\obj\Debug\List_Boxes.Form1.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\List Boxes\List Boxes\obj\Debug\List_Boxes.Resources.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\List Boxes\List Boxes\obj\Debug\List Boxes.vbproj.GenerateResource.Cache
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\List Boxes\List Boxes\obj\Debug\List Boxes.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\List Boxes\List Boxes\obj\Debug\List Boxes.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\List Boxes\List Boxes\obj\Debug\List Boxes.pdb

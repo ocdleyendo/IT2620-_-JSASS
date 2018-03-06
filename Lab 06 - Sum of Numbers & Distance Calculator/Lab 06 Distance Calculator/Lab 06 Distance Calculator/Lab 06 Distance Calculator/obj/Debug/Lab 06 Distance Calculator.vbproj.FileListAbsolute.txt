@@ -1,0 +1,11 @@
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 06 - Sum of Numbers\Lab 06 Distance Calculator\Lab 06 Distance Calculator\Lab 06 Distance Calculator\obj\Debug\Lab 06 Distance Calculator.vbprojResolveAssemblyReference.cache
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 06 - Sum of Numbers\Lab 06 Distance Calculator\Lab 06 Distance Calculator\Lab 06 Distance Calculator\obj\Debug\Lab_06_Distance_Calculator.Form1.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 06 - Sum of Numbers\Lab 06 Distance Calculator\Lab 06 Distance Calculator\Lab 06 Distance Calculator\obj\Debug\Lab_06_Distance_Calculator.Resources.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 06 - Sum of Numbers\Lab 06 Distance Calculator\Lab 06 Distance Calculator\Lab 06 Distance Calculator\obj\Debug\Lab 06 Distance Calculator.vbproj.GenerateResource.Cache
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 06 - Sum of Numbers\Lab 06 Distance Calculator\Lab 06 Distance Calculator\Lab 06 Distance Calculator\bin\Debug\Lab 06 Distance Calculator.exe.config
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 06 - Sum of Numbers\Lab 06 Distance Calculator\Lab 06 Distance Calculator\Lab 06 Distance Calculator\bin\Debug\Lab 06 Distance Calculator.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 06 - Sum of Numbers\Lab 06 Distance Calculator\Lab 06 Distance Calculator\Lab 06 Distance Calculator\bin\Debug\Lab 06 Distance Calculator.pdb
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 06 - Sum of Numbers\Lab 06 Distance Calculator\Lab 06 Distance Calculator\Lab 06 Distance Calculator\bin\Debug\Lab 06 Distance Calculator.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 06 - Sum of Numbers\Lab 06 Distance Calculator\Lab 06 Distance Calculator\Lab 06 Distance Calculator\obj\Debug\Lab 06 Distance Calculator.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 06 - Sum of Numbers\Lab 06 Distance Calculator\Lab 06 Distance Calculator\Lab 06 Distance Calculator\obj\Debug\Lab 06 Distance Calculator.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 06 - Sum of Numbers\Lab 06 Distance Calculator\Lab 06 Distance Calculator\Lab 06 Distance Calculator\obj\Debug\Lab 06 Distance Calculator.pdb

@@ -1,0 +1,11 @@
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\Lab06SumOfNumbers\Lab06SumOfNumbers\bin\Debug\Lab06SumOfNumbers.exe.config
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\Lab06SumOfNumbers\Lab06SumOfNumbers\bin\Debug\Lab06SumOfNumbers.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\Lab06SumOfNumbers\Lab06SumOfNumbers\bin\Debug\Lab06SumOfNumbers.pdb
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\Lab06SumOfNumbers\Lab06SumOfNumbers\bin\Debug\Lab06SumOfNumbers.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\Lab06SumOfNumbers\Lab06SumOfNumbers\obj\Debug\Lab06SumOfNumbers.vbprojResolveAssemblyReference.cache
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\Lab06SumOfNumbers\Lab06SumOfNumbers\obj\Debug\Lab06SumOfNumbers.Form1.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\Lab06SumOfNumbers\Lab06SumOfNumbers\obj\Debug\Lab06SumOfNumbers.Resources.resources
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\Lab06SumOfNumbers\Lab06SumOfNumbers\obj\Debug\Lab06SumOfNumbers.vbproj.GenerateResource.Cache
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\Lab06SumOfNumbers\Lab06SumOfNumbers\obj\Debug\Lab06SumOfNumbers.exe
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\Lab06SumOfNumbers\Lab06SumOfNumbers\obj\Debug\Lab06SumOfNumbers.xml
+C:\JSass - Class Files\IT2620 _ JSASS\Lab 05 - LargerSmaller\Work for chapter 5\Lab06SumOfNumbers\Lab06SumOfNumbers\obj\Debug\Lab06SumOfNumbers.pdb
