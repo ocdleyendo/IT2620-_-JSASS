@@ -29,6 +29,12 @@
     Dim decLodgingOverage As Decimal
     Dim decTotalUnallowed As Decimal
 
+    Const dblMealsCover As Double = 37
+    Const dblMilesCover As Double = 0.27
+    Const dblParkingCover As Double = 10
+    Const dblTaxiCover As Double = 20
+    Const dblLodgingCover As Double = 95
+
     Private Sub BtnCalculate_Click(sender As Object, e As EventArgs) Handles BtnCalculate.Click
 
         If Not Decimal.TryParse(txtDaysOfStay.Text, intDaysofStay) Or intDaysofStay <= 0 Then
@@ -81,40 +87,30 @@
 
     Function CalcMealCosts(ByVal intMealCosts As Decimal, ByVal intDaysofStay As Integer) As Integer
 
-        If Not Decimal.TryParse(txtMealCosts.Text, decMealCosts) Or decMealCosts < 0 Then
+        If Not Decimal.TryParse(txtMealCosts.Text, decMealCosts) Then
             MessageBox.Show("Please enter a valid number for meal costs, if any")
         Else
-            'Calculate amount to reimburse for meals per day if days of stay > 1
-            If intDaysofStay = 1 Then
-                If (decMealCosts < 37) Then
-                    decMealReimbursement = decMealCosts
-                Else
-                    decMealReimbursement = 37
-
-                    If intDaysofStay > 1 Then
-                        decMealCostsPerDay = intMealCosts / intDaysofStay
-                        If decMealCostsPerDay < 37 Then
-                            decMealReimbursement = decMealCosts 'intMealCostPerday * intDaysofStay
-                        Else
-                            'Calculate the meal reimbursement if days of stay = 1
-                            decMealReimbursement = 37 * intDaysofStay
-                        End If
-                    End If
-                End If
+            'Calculate amount to reimburse for meals
+            decMealReimbursement = intDaysofStay * dblMealsCover
+            If decMealCosts <= decMealReimbursement Then
+                decMealCostSavings = 0
+            Else
+                decMealCostSavings = decMealReimbursement - decMealCosts
             End If
         End If
-        Return decMealReimbursement
+        Return decMealReimbursement '& decMealCostSavings
     End Function
 
     'Calculate the mileage at .27 per mile, if any 
     Private Function CalcMileage(ByVal intMilesDriven As Integer) As Integer
-        If Not Integer.TryParse(txtMileage.Text, intMilesDriven) Or intMilesDriven < 0 Then
-            MessageBox.Show("Please enter the miles driven if a private vehicle was used")
-        Else
+        If Integer.TryParse(txtMileage.Text, intMilesDriven) Then
             If intMilesDriven > 0 Then
                 decMileageReimbursement = intMilesDriven * 0.27
-            Else decMileageReimbursement = 0
+            Else
+                decMileageReimbursement = 0
             End If
+            Else
+            MessageBox.Show("Please enter the miles driven if a private vehicle was used")
         End If
         Return decMileageReimbursement
     End Function
@@ -123,56 +119,37 @@
     Function CalcParkingFees(ByVal decParkingFees As Decimal, ByVal intDaysofStay As Integer) As Decimal
 
         'Convert txtParkingfees to decimal
-        If Not Decimal.TryParse(txtParkingFees.Text, decParkingFees) Or decParkingFees < 0 Then
-            MessageBox.Show("Please enter a positive amount for parking fees, if any")
+        If Decimal.TryParse(txtParkingFees.Text, decParkingFees) Then
+            decParkingReimbursement = intDaysofStay * dblParkingCover
         Else
-
-            'Calculate amount to reimburse for parking fees per day if days of stay > 1
-            If intDaysofStay = 1 And decParkingFees < 10 Then
-                decParkingReimbursement = decParkingFees
-            Else
-                decParkingReimbursement = 10
-            End If
-
-            'Calculate the parking fees if days of stay > 1
-            If intDaysofStay > 1 Then
-                decParkingfeesPerday = decParkingFees / intDaysofStay
-                If decParkingfeesPerday < 10 Then
-                    decParkingReimbursement = decParkingFees
-                Else
-                    'Calculate the meal reimbursement if days of stay = 1
-                    decParkingReimbursement = 10 * intDaysofStay
-                End If
-            End If
+            MessageBox.Show("Please enter a positive amount for parking fees, if any")
         End If
 
-        Return decParkingReimbursement
+        If decParkingFees <= decParkingReimbursement Then
+            decParkingFeeSavings = 0
+        Else
+            decParkingFeeSavings = decParkingReimbursement - decParkingFees
+        End If
+        Return decParkingReimbursement & decParkingFeeSavings
     End Function
 
     Function CalcLodging(ByVal decParkingFees As Decimal, ByVal intDaysofStay As Integer) As Decimal
 
         'Convert txtLodging to decimal
-        If Not Decimal.TryParse(txtLodgingChargeNight.Text, decLodgingCosts) Or decLodgingCosts < 0 Then
-            MessageBox.Show("Please enter a positive amount for lodging costs per night")
-        Else
-
-            'Calculate amount to reimburse for lodging per night if days of stay > 1
-            If intDaysofStay = 1 And decLodgingCosts < 95 Then
-                decLodgingReimbursement = decLodgingCosts
+        If Decimal.TryParse(txtLodgingChargeNight.Text, decLodgingCosts) Then
+            If decLodgingCosts > 0 Then
+                decLodgingReimbursement = intDaysofStay * dblLodgingCover
             Else
-                decLodgingCosts = 95
+                MessageBox.Show("Please enter a positive amount for lodging costs per night")
             End If
 
-            'Calculate the lodging costs if days of stay > 1
-            If intDaysofStay > 1 Then
-                decLodgingCostsPerDay = decLodgingCosts / intDaysofStay
-                If decLodgingCostsPerDay < 95 Then
-                    decLodgingReimbursement = decLodgingCosts
-                Else
-                    'Calculate the lodging reimbursement if the hotel costs < 95/per day
-                    decLodgingReimbursement = 95 * intDaysofStay
-                End If
-            End If
+        End If
+        'Calculate amount to reimburse for lodging 
+
+        If decLodgingCosts < decLodgingReimbursement Then
+            decLodgingSavings = 0
+        Else
+            decLodgingSavings = decLodgingCosts - decLodgingReimbursement
         End If
 
         Return decLodgingReimbursement
@@ -181,42 +158,65 @@
     Function CalcTaxiFees(ByVal decTaxiCharges As Decimal, ByVal intDaysofStay As Integer) As Decimal
 
         'Convert txtTaxiCharges to decimal
-        If Not Decimal.TryParse(txtTaxiFare.Text, decTaxiCharges) Or decTaxiCharges < 0 Then
-            MessageBox.Show("Please enter a positive amount for taxi costs, if any")
+        If Decimal.TryParse(txtTaxiFare.Text, decTaxiCharges) Then
+            decTaxiReimbursement = intDaysofStay * dblTaxiCover
         Else
+            MessageBox.Show("Please enter a positive amount for taxi costs, if any")
 
-            'Calculate amount to reimburse for taxi fare if the days of stay = 1
-            If intDaysofStay = 1 And decTaxiCharges < 20 Then
-                decTaxiReimbursement = decTaxiCharges
+            'Calculate amount to reimburse for taxi fare
+
+            If decTaxiCharges <= decTaxiReimbursement Then
+                decTaxiChargeSavings = 0
             Else
-                decTaxiReimbursement = 20
-            End If
-
-            'Calculate the lodging costs if days of stay > 1
-            If intDaysofStay > 1 Then
-                decTaxiChargesPerDay = decTaxiCharges / intDaysofStay
-                If decTaxiChargesPerDay < 20 Then
-                    decTaxiReimbursement = decTaxiCharges
-                Else
-                    'Calculate the lodging reimbursement if the hotel costs < 95/per day
-                    decTaxiReimbursement = 20 * intDaysofStay
-                End If
+                decTaxiChargeSavings = decTaxiReimbursement - decTaxiCharges
             End If
         End If
-
-        Return decTaxiReimbursement
+            Return decTaxiReimbursement
     End Function
 
     'Calculate the total reimbursement
+    'first result = sum the amounts of all textboxes, and put it, 
+    'into another New textbox Or label that Is For total expenses
+
+    'second result = this is ((# of days * (37 + 10 + 20 +95)) + (.27 * amount of miles)) -> 
+    'amount of miles is on the vehicles miles textbox you put at the begining,
+    'put this result In another textbox Or label, As total allowable expenses
+
+    'third result = first result - second result -> If this value Is gretter than 0 
+    ' Then the person had an excess If Is lower than 0 he made some saving, 
+    'And If its 0 Then he was even.
+
+    'If (first result - second result) > 0 Then
+    'he spended more
+    'ElseIf (first result - second result) < 0 Then
+    'he had savings
+    'Else
+    'he has even
+    'End If
+
     Function CalcTotalReimbursement(ByVal intDaysofStay As Integer,
-                                ByVal decMealReimbursement As Decimal,
-                                ByVal decMileageReimbursement As Decimal,
-                                ByVal decParkingReimbursement As Decimal,
+                                ByVal dblMealCover As Decimal,
+                                ByVal dblLodgingCover As Decimal,
+                                ByVal dblTaxiCover As Decimal,
                                 ByVal decLodgingReimbursement As Decimal,
                                 ByVal decAirfareCosts As Decimal,
                                 ByVal decTaxiReimbursement As Decimal,
                                 ByVal intRegistrationFees As Integer
                                 ) As Decimal
+
+        Dim decTotalExpenses As Decimal
+        Dim decTotalCoveredExpenses As Decimal
+
+        Const dblMealsCover As Double = 37
+        Const dblMilesCover As Double = 0.27
+        Const dblParkingCover As Double = 10
+        Const dblTaxiCover As Double = 20
+        Const dblLodgingCover As Double = 95
+
+        decTotalExpenses = decMealCosts + decLodgingCosts + decAirfareCosts + decTaxiCharges +
+                            intRegistrationFees + intCarRental + (dblMilesCover * intMilesDriven)
+
+        decTotalCoveredExpenses = decMealCosts + decLodgingCosts + decTaxiCharges + intCarRental
 
         decTotalReimbursement = (decMealReimbursement +
                               decMileageReimbursement +
